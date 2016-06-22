@@ -10,8 +10,9 @@
 
 	<div ng-controller="DataBindingController">
 	
-			{{variabileProva}}
-	
+			modo 1: {{variabileProva}}
+			<br>
+			modo 2: <p ng-bind="variabileProva"></p>
 	</div>
 
 </body>
