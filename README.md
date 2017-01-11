@@ -81,6 +81,7 @@ http://localhost:8080/pminformatica/pages/Home/Home.jsp<br>
 ## ExtensionLibraries
 Questo progetto contiene alcuni esempi di librerie di utilità <br>
 1. Esempio utilizzo Growl<br>
+1. Esempio utilizzo AngularDialogService<br>
 
 ### Framework
 Questo progetto utilizza AngularJs e Spring MVC per lo sviluppo dei servizi REST
@@ -90,3 +91,4 @@ Per provare il progetto e' necessario eseguire il jetty di Maven
 
 ### Link
 Esempio con Growl: http://localhost:8080/extension/pages/Growl/Growl.jsp <br>
+Esempio con AngularDialogService: http://localhost:8080/extension/pages/AngularDialogService/AngularDialogService.jsp <br>
