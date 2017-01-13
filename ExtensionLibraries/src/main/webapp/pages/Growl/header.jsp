@@ -15,7 +15,7 @@
 
 <!-- INCLUDO LE LIBRERIE BASE DI BOOTSTRAP -->
 <link
-	href="${pageContext.request.contextPath}/webjars/bootstrap/2.3.2/css/bootstrap.min.css"
+	href="${pageContext.request.contextPath}/webjars/bootstrap/3.3.7/css/bootstrap.min.css"
 	rel="stylesheet">
 
 <!-- INCLUDO I SERVIZI E I CONTROLLER JAVASCRIPT -->
