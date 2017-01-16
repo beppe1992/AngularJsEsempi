@@ -85,6 +85,7 @@ Questo progetto contiene alcuni esempi di librerie di utilità <br>
 3. Esempio utilizzo UI-Bootstrap<br>
 4. Esempio utilizzo Angucomplete<br>
 5. Esempio utilizzo AngularBootstrapSwitch<br>
+6. Esempio utilizzo AngularMultiSelect<br>
 
 ### Framework
 Questo progetto utilizza AngularJs e Spring MVC per lo sviluppo dei servizi REST
@@ -98,3 +99,4 @@ Esempio con AngularDialogService: http://localhost:8080/extension/pages/AngularD
 Esempio con UI-Bootstrap: http://localhost:8080/extension/pages/UIBootstrap/UIBootstrapExample.jsp <br>
 Esempio con Angucomplete: http://localhost:8080/extension/pages/Angucomplete/Angucomplete.jsp <br>
 Esempio con AngularBootstrapSwitch: http://localhost:8080/extension/pages/AngularBootstrapSwitch/AngularBootstrapSwitch.jsp <br>
+Esempio con AngularMultiSelect: http://localhost:8080/extension/pages/AngularMultiSelect/AngularMultiSelect.jsp <br>
