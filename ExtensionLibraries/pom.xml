@@ -142,6 +142,13 @@
 			<version>4.0.0</version>
 		</dependency>
 
+		<!-- NG FILE UPLOAD -->
+		<dependency>
+			<groupId>org.webjars</groupId>
+			<artifactId>angular-file-upload</artifactId>
+			<version>11.0.0</version>
+		</dependency>
+
 	</dependencies>
 
 	<build>
