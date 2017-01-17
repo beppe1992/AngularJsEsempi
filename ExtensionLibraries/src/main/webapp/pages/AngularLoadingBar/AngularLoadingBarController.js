@@ -2,18 +2,6 @@ angular.module('extensionLibraries.controllers')
 
 .controller('AngularLoadingBarController', [ '$scope','$http','cfpLoadingBar', function($scope,$http,cfpLoadingBar) {
 
-	$scope.start  = function(){
-		cfpLoadingBar.start();
-		cfpLoadingBar.complete();
-		
-		
-	}
-	
-	$scope.getStatus  = function(){
-		cfpLoadingBar.start();
-		cfpLoadingBar.set(0.3);
-		alert(cfpLoadingBar.status());
-	}
 
 	$scope.chiamaServizio  = function(){
 		
