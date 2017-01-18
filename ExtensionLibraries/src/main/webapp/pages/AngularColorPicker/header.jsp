@@ -19,7 +19,7 @@
 	rel="stylesheet">
 
 
-<!-- INCLUDO LE LIBRERIE DI ANGULAR FILE UPLOAD -->
+<!-- INCLUDO LE LIBRERIE DI ANGULAR COLOR PICKER-->
 <script
 	src="${webjarsPath}angular-bootstrap-colorpicker/3.0.25/js/bootstrap-colorpicker-module.min.js"></script>
 <link
