@@ -2,7 +2,7 @@
 
 <html>
 <head>
-<title>Angucomplete</title>
+<title>AngularLoadingBar</title>
 </head>
 
 <body ng-app="extensionLibraries"

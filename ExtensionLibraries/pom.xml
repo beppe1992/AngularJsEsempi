@@ -157,6 +157,13 @@
 			<version>0.9.0</version>
 		</dependency>
 
+		<!-- ANGULAR COLOR PICKER -->
+		<dependency>
+			<groupId>org.webjars</groupId>
+			<artifactId>angular-bootstrap-colorpicker</artifactId>
+			<version>3.0.25</version>
+		</dependency>
+
 	</dependencies>
 
 	<build>

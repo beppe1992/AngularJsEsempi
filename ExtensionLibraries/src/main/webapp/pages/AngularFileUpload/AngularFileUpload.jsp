@@ -2,7 +2,7 @@
 
 <html>
 <head>
-<title>Angucomplete</title>
+<title>AngularFileUpload</title>
 </head>
 
 <body ng-app="extensionLibraries"

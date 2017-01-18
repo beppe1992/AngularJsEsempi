@@ -2,7 +2,7 @@
 
 <html>
 <head>
-<title>Angucomplete</title>
+<title>AngularBootstrapSwitch</title>
 </head>
 
 <body ng-app="extensionLibraries"

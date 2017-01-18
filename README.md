@@ -88,6 +88,7 @@ Questo progetto contiene alcuni esempi di librerie di utilità <br>
 6. Esempio utilizzo AngularMultiSelect<br>
 7. Esempio utilizzo AngularFileUpload<br>
 8. Esempio utilizzo AngularLoadingBar<br>
+9. Esempio utilizzo AngularColorPicker<br>
 
 ### Framework
 Questo progetto utilizza AngularJs e Spring MVC per lo sviluppo dei servizi REST
@@ -104,3 +105,4 @@ Esempio con AngularBootstrapSwitch: http://localhost:8080/extension/pages/Angula
 Esempio con AngularMultiSelect: http://localhost:8080/extension/pages/AngularMultiSelect/AngularMultiSelect.jsp <br>
 Esempio con AngularFileUpload: http://localhost:8080/extension/pages/AngularFileUpload/AngularFileUpload.jsp <br>
 Esempio con AngularLoadingBar: http://localhost:8080/extension/pages/AngularLoadingBar/AngularLoadingBar.jsp <br>
+Esempio con AngularColorPicker: http://localhost:8080/extension/pages/AngularColorPicker/AngularColorPicker.jsp <br>
