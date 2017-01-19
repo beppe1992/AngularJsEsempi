@@ -79,7 +79,7 @@ Per provare il progetto e' necessario eseguire il jetty di Maven
 http://localhost:8080/pminformatica/pages/Home/Home.jsp<br>
 
 ## ExtensionLibraries
-Questo progetto contiene alcuni esempi di librerie di utilità <br>
+Questo progetto contiene alcuni esempi di librerie di terze parti <br>
 1. Esempio utilizzo Growl<br>
 2. Esempio utilizzo AngularDialogService<br>
 3. Esempio utilizzo UI-Bootstrap<br>
