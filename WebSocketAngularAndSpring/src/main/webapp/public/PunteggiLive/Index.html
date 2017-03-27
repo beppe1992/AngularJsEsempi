@@ -1,0 +1,44 @@
+
+<html>
+<head>
+<title>Costrutti Base</title>
+
+<!-- INCLUDO LE LIBRERIE BASE DI ANGULAR -->
+<script src="/webjars/angularjs/1.5.5/angular.min.js"></script>
+
+<!-- INCLUDO LE LIBRERIE ngStomp -->
+<script src="/webjars/ng-stomp/0.4.0/dist/ng-stomp.standalone.min.js"></script>
+
+<!-- INCLUDO BOOTSTRAP E GROWL -->
+<link href="/webjars/bootstrap/3.3.7/css/bootstrap.min.css"
+	rel="stylesheet">
+<script src="/webjars/angular-growl-2/0.6.0/angular-growl.min.js"></script>
+<link href="/webjars/angular-growl-2/0.6.0/angular-growl.min.css"
+	rel="stylesheet">
+
+<!-- INCLUDO I SERVIZI E I CONTROLLER JAVASCRIPT -->
+<script type="text/javascript" src="/resources/js/app.js"></script>
+
+
+<script type="text/javascript"
+	src="/public/PunteggiLive/PunteggiLiveController.js"></script>
+
+</head>
+
+<body ng-app="webSocketAngular" ng-controller="PunteggiLiveController">
+	<b>PUNTEGGI</b>
+
+	<ul>
+		<li ng-repeat="punteggio in punteggi">{{punteggio.squadraCasa.codiceSquadra}}:
+			<b>{{punteggio.goalCasa}}</b> VS
+			{{punteggio.squadraOspite.codiceSquadra}}: <b>{{punteggio.goalOspite}}</b>
+		</li>
+	</ul>
+	
+	<button ng-click="refreshPunteggio()">Forza Refresh</button>
+
+	<div growl></div>
+
+	
+</body>
+</html>

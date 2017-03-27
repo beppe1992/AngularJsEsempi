@@ -108,3 +108,16 @@ Esempio con AngularFileUpload: http://localhost:8080/extension/pages/AngularFile
 Esempio con AngularLoadingBar: http://localhost:8080/extension/pages/AngularLoadingBar/AngularLoadingBar.jsp <br>
 Esempio con AngularColorPicker: http://localhost:8080/extension/pages/AngularColorPicker/AngularColorPicker.jsp <br>
 Esempio con AngularMaterialDesign: http://localhost:8080/extension/pages/AngularMaterialDesign/AngularMaterialDesign.jsp <br>
+
+## WebSocketAngularAndSpring
+Questo progetto contiene un esempio di implementazione delle WebSocket, utilizzando un AngularJs lato client e Spring Boot lato server.<br>
+L'applicazione di esempio si occuperà di visualizzare il punteggio "live" di una partita di calcio.<br>
+
+### Framework
+Questo progetto utilizza AngularJs lato client (per gestire WebSocket viene utilizzato ng-stomp) e Spring Boot lato Server (per gestire WebSocket vengono utilizzate le implementazioni native di Spring Boot: spring-boot-starter-websocket).
+
+### Configurazioni
+Per provare il progetto e' necessario eseguire il main di Spring Boot (App.java).
+
+### Link
+Link Esempio: http://localhost:8080/public/PunteggiLive/Index.html <br>
