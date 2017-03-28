@@ -17,7 +17,10 @@ public class PunteggioLiveController {
 	private PunteggioLiveService service;
 
 	/**
-	 * Questo metodo rimane in ascolto per l'url refresh-forzato, e una volta cliccato manda a tutti le partite aggiornate
+	 * Questo metodo rimane in ascolto per l'url /refresh-forzato, e una volta
+	 * cliccato manda a tutti gli ascoltatori dell'url '/aggiornamenti/punteggi'
+	 * le partite aggiornate
+	 * 
 	 * @return
 	 */
 	@MessageMapping("/refresh-forzato")

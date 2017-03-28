@@ -19,7 +19,7 @@ public class PunteggioLiveWebSocketConfig extends
 		AbstractWebSocketMessageBrokerConfigurer {
 
 	
-	// Configuro l'endpoint
+	// Configuro l'endpoint, che risponderà quindi a http://localhost:8080/punteggiolive-websocket
 	@Override
 	public void registerStompEndpoints(StompEndpointRegistry registry) {
 		registry.addEndpoint("/punteggiolive-websocket").setAllowedOrigins("*")
