@@ -5,4 +5,8 @@
 
 .settings/
 
+.node_modules/
+
 *.class
+
+WebSocketAngularAndNodeJs/node_modules/angular/angular.js
