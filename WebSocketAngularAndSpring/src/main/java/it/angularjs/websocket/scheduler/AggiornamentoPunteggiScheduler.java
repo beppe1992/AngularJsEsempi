@@ -24,7 +24,7 @@ public class AggiornamentoPunteggiScheduler {
 	@Autowired
 	PunteggioLiveService service;
 
-	// ogni 5 secondi invio gli aggiornamenti in modalità broadcast ai vari client che ascoltano l'url '/aggiornamenti/punteggi'
+	// ogni 10 secondi invio gli aggiornamenti in modalità broadcast ai vari client che ascoltano l'url '/aggiornamenti/punteggi'
 	@Scheduled(fixedRate = 10000)
 	public void pubblicaAggiornamenti() {
 
