@@ -18,8 +18,17 @@ import org.springframework.web.socket.config.annotation.StompEndpointRegistry;
 public class PunteggioLiveWebSocketConfig extends
 		AbstractWebSocketMessageBrokerConfigurer {
 
-	
-	// Configuro l'endpoint, che risponderà quindi a http://localhost:8080/punteggiolive-websocket
+	@Override
+	public void configureMessageBroker(MessageBrokerRegistry config) {
+		// gli aggiornamenti inviati ai client verranno inviati all'url /aggiornamenti/*
+		config.enableSimpleBroker("/aggiornamenti");
+		
+		// i messaggi inviati dai client ai server, dovranno essere inviati all'url /app/*
+		config.setApplicationDestinationPrefixes("/app");
+	}
+
+	// Configuro l'endpoint, che risponderà quindi a
+	// http://localhost:8080/punteggiolive-websocket
 	@Override
 	public void registerStompEndpoints(StompEndpointRegistry registry) {
 		registry.addEndpoint("/punteggiolive-websocket").setAllowedOrigins("*")

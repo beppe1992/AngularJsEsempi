@@ -23,7 +23,7 @@ public class PunteggioLiveController {
 	 * 
 	 * @return
 	 */
-	@MessageMapping("/refresh-forzato")
+	@MessageMapping("/app/refresh-forzato")
 	@SendTo("/aggiornamenti/punteggi")
 	public List<Partita> getScores() {
 

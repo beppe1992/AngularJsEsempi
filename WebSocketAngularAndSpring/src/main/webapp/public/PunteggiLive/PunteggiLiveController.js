@@ -22,10 +22,10 @@ angular.module('webSocketAngular.controllers')
 		        
 		        });
 		        
-		       
+		      
 		        
 		      });
 			 
 			 $scope.refreshPunteggio = function(){
-				 $stomp.send('/refresh-forzato', '');
+				 $stomp.send('/app/refresh-forzato', '');
 			 };} ]);
