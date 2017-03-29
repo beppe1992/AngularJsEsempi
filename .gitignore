@@ -9,4 +9,6 @@
 
 *.class
 
-WebSocketAngularAndNodeJs/node_modules/angular/angular.js
+WebSocketAngularAndNodeJs/node_modules/*
+
+WebSocketAngularAndNodeJs/bower_components/*

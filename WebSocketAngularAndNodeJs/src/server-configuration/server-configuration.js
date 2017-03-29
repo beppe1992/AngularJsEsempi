@@ -1,22 +1,15 @@
 var expressImport = require('express');
 var express = expressImport();
 var server = require('http').Server(express);
+var path = require('path');
 
 exports.configureServer = function(){
 
-	express.use(function (req, res, next) {
+	express.use('/webapp',expressImport.static(path.join(__dirname, '../../webapp')));
+	express.use('/node_modules',expressImport.static(path.join(__dirname, '../../node_modules')));
+	express.use('/bower_components',expressImport.static(path.join(__dirname, '../../bower_components')));
 
-		// Website you wish to allow to connect
-		res.setHeader("Access-Control-Allow-Origin", "http://localhost:8080");
-		res.setHeader('Access-Control-Allow-Credentials', true);
-		// Pass to next layer of middleware
-		next();
-	});
-
-	console.log(__dirname + '/webapp');
-	express.use(expressImport.static(__dirname + '/webapp'));
-
-	server.listen(9080);
+	server.listen(8080);
 }
 
 exports.express = express;
