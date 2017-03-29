@@ -132,10 +132,9 @@ L'applicazione di esempio si occuperà di visualizzare il punteggio "live" di una
 Questo progetto utilizza AngularJs lato client (per gestire WebSocket viene utilizzato ng-stomp) e NodeJs lato Server (per gestire WebSocket viene utilizzato il framework per Node Express.js e Socket.io).
 
 ### Configurazioni
-Per provare il progetto e' necessario lanciare il comando npm install, una volta scaricato.<br>
+Per provare il progetto e' necessario lanciare i comandi npm install e bower install, una volta scaricato.<br>
 Sarà necessario eseguire due server, uno per lanciare l'applicazione Front-End (angularjs), ed uno per lanciare l'applicazione Back-End (nodejs):<br>
-1. Per lanciare il back-end è necessario eseguire il comando "node src\websocket-server\websocket-server.js"<br>
-2. Esempio utilizzo Growl<br>
+1. Per lanciare il progetto è necessario eseguire il comando "node src\main-app.js", in quale esegue un server http che espone sia il front-end che il back-end<br>
 
 ### Link
 Link Esempio: http://localhost:8080/webapp/public/PunteggiLive/Index.html <br>

@@ -9,7 +9,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "angular": "^1.6.3",
+    "bootstrap": "^3.3.7",
     "express": "^4.15.2",
+    "ng-stomp": "^0.4.0",
+    "node-schedule": "^1.2.1",
     "socket.io": "^1.7.3"
   }
 }
