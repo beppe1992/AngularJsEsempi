@@ -90,6 +90,7 @@ Questo progetto contiene alcuni esempi di librerie di terze parti <br>
 8. Esempio utilizzo AngularLoadingBar<br>
 9. Esempio utilizzo AngularColorPicker<br>
 10. Esempio utilizzo AngularMaterialDesign<br>
+11. Esempio utilizzo UITinymce<br>
 
 ### Framework
 Questo progetto utilizza AngularJs e Spring MVC per lo sviluppo dei servizi REST
@@ -108,6 +109,7 @@ Esempio con AngularFileUpload: http://localhost:8080/extension/pages/AngularFile
 Esempio con AngularLoadingBar: http://localhost:8080/extension/pages/AngularLoadingBar/AngularLoadingBar.jsp <br>
 Esempio con AngularColorPicker: http://localhost:8080/extension/pages/AngularColorPicker/AngularColorPicker.jsp <br>
 Esempio con AngularMaterialDesign: http://localhost:8080/extension/pages/AngularMaterialDesign/AngularMaterialDesign.jsp <br>
+Esempio con UI-Tinymce: http://localhost:8080/extension/pages/UITinymce/UITinymceExample.jsp <br>
 
 ## WebSocketAngularAndSpring
 Questo progetto contiene un esempio di implementazione delle WebSocket, utilizzando un AngularJs lato client e Spring Boot lato server.<br>
