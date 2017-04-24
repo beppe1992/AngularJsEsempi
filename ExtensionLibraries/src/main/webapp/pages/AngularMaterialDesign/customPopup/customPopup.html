@@ -1,0 +1,35 @@
+<md-dialog>
+	<div ng-init="inizializza()">
+		
+		<ng-form name="form" ng-cloak>
+			<md-toolbar>
+				<div class="md-toolbar-tools  accent-color ">
+					<h2>Custom Popup</h2>
+					<span flex></span>
+					<md-button class="md-icon-button" ng-click="cancel()"> <i
+						class="material-icons">highlight_off</i> </md-button>
+				</div>
+			</md-toolbar>
+
+			<br> <br>
+
+			<md-dialog-content>
+
+				<h1>Nome: {{nome}}</h1>
+			
+			</md-dialog-content>
+
+			<br>
+			<md-dialog-actions  layout="row">
+			<span flex></span>
+			
+			<md-button ng-click="cancel()" class="md-raised md-warn">Annulla</md-button>
+			<md-button
+				ng-click="submitForm()"> Conferma </md-button> 
+				 </md-dialog-actions>
+		</ng-form>
+	</div>
+	
+	<br>
+	
+</md-dialog>

@@ -20,13 +20,18 @@
 	href="${webjarsPath}angular-material/1.1.3/angular-material.min.css">
 <script
 	src="${webjarsPath}angular-material/1.1.3/angular-material.min.js"></script>
-	
+<link rel="stylesheet"
+	href="${webjarsPath}material-design-icons/3.0.1/material-icons.css">
+
 
 <!-- INCLUDO I SERVIZI E I CONTROLLER JAVASCRIPT -->
 <script type="text/javascript"
 	src="${pageContext.request.contextPath}/pages/AngularMaterialDesign/app.js"></script>
+	<script type="text/javascript"
+	src="${pageContext.request.contextPath}/pages/AngularMaterialDesign/customPopup/customPopupController.js"></script>
 <script type="text/javascript"
 	src="${pageContext.request.contextPath}/pages/AngularMaterialDesign/AngularMaterialDesignController.js"></script>
+	
 
 <script type="text/javascript">
 	EXTENSION_LIBRARIES = angular.extend(typeof MFA === 'undefined' ? {} : MFA,

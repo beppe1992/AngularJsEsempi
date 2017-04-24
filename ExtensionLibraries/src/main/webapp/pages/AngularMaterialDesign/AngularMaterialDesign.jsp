@@ -3,17 +3,13 @@
 <html>
 <head>
 <title>Angular Material</title>
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-	rel="stylesheet">
+
 </head>
 
 <body ng-app="extensionLibraries"
-	ng-controller="AngularMaterialDesignController">
+	ng-controller="AngularMaterialDesignController" id="topPage">
 	<jsp:include page="header.jsp" />
-	<br>
-	<br>
-	<br>
-	<br>
+	
 	<div flex-gt-xs>
 		<h4>Standard date-picker</h4>
 		<md-datepicker ng-model="selectedDate" md-placeholder="Seleziona data"></md-datepicker>
@@ -23,7 +19,7 @@
 	<br>
 	<br>
 	<div flex-gt-xs>
-		<h4>Tool Bar</h4>
+		<h4>Dynamic Tool Bar</h4>
 		<md-fab-toolbar md-open="isOpen" count="count"
 			md-direction="{{selectedDirection}}"> 
 				<md-fab-trigger class="align-with-text"> 
@@ -45,6 +41,22 @@
 				</md-fab-actions> 
 			</md-toolbar>
 		</md-fab-toolbar>
+	</div>
+	<div flex-gt-xs>
+		<h4>Static Tool Bar</h4>
+		<md-toolbar >
+			    <div class="md-toolbar-tools  accent-color ">
+			    		<h4>Categorie </h4>
+			    		
+			    		<md-content flex></md-content>
+					    <i class="material-icons">&#xE8B6;</i>
+					    <input placeholder="Ricerca una categoria..." ng-model="searchText"></input>
+					    
+				    	<md-button class="md-fab md-primary addButton">
+			           		 <i class="material-icons">add</i>
+			        	</md-button>
+			    </div>    
+			</md-toolbar>
 	</div>
 
 	<br>
@@ -77,11 +89,31 @@
           
           
 	</div>
+	
+	<div flex-gt-xs>
+		<h4>Button</h4>
+		<md-button class="md-icon-button md-primary"> <i class="material-icons">compare_arrows</i>  </md-button>
+	</div>
+	
 
 	<div flex-gt-xs>
 		<h4>Switch</h4>
 		<md-switch ng-model="selected" aria-label="Switch 1">
 		Switch 1: {{ selected }} </md-switch>
+	</div>
+	
+	<div flex-gt-xs>
+		<h4>Custom Popup</h4>
+		<md-button class="md-fab md-primary addButton" ng-click="openPopup($event)">
+			           <i class="material-icons">add</i>
+		</md-button>
+	</div>
+
+	<div flex-gt-xs>
+		<h4>Go to top button</h4>
+		<md-button type="_target" ng-click="gotoTop()" class="md-fab md-primary">
+			<i class="material-icons">vertical_align_top</i>
+		</md-button>
 	</div>
 
 
