@@ -176,6 +176,13 @@
 			<version>3.0.1</version>
 		</dependency>
 
+		<!-- componente per scrittura input HTML -->
+		<dependency>
+			<groupId>org.webjars</groupId>
+			<artifactId>angular-ui-tinymce</artifactId>
+			<version>0.0.5</version>
+		</dependency>
+
 
 	</dependencies>
 
