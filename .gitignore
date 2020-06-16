@@ -9,6 +9,8 @@
 
 *.class
 
+.idea/
+
 WebSocketAngularAndNodeJs/node_modules/*
 
 WebSocketAngularAndNodeJs/bower_components/*
