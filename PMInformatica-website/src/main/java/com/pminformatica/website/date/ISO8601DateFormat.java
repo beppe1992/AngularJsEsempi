@@ -1,10 +1,6 @@
 package com.pminformatica.website.date;
 
-import java.text.DateFormat;
-import java.text.DecimalFormat;
-import java.text.FieldPosition;
-import java.text.NumberFormat;
-import java.text.ParsePosition;
+import java.text.*;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.GregorianCalendar;
@@ -39,7 +35,12 @@ public class ISO8601DateFormat extends DateFormat {
 	@Override
 	public Date parse(String source, ParsePosition pos) {
 		pos.setIndex(source.length());
-		return ISO8601Utils.parse(source);
+		try {
+			return ISO8601Utils.parse(source,pos);
+		} catch (ParseException e) {
+			e.printStackTrace();
+		}
+		return null;
 	}
 
 	@Override
